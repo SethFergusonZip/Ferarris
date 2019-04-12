@@ -1,0 +1,84 @@
+/*Style Sheet for Ferraris */
+
+
+/* Image Styles */
+
+img {
+    width: 45px;
+    height: 65px;
+    vertical-align: middle;
+
+}
+
+/* Text Styles */
+html {
+    background: url("Images/ferrari-3090880.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+div  {
+    border-radius: 25px;
+    width: 600px;
+    margin: 50px auto;
+    padding: 40px 75px;
+    background-color: white;
+}
+
+.MF {
+    border: 2px solid rgb(15, 175, 0);
+    box-shadow: 2px 2px rgb(15, 175, 0);
+}
+
+.CF {
+    border: 2px solid rgb(255,0,0);
+    box-shadow: 2px 2px rgb(255,0,0);
+} 
+
+.ITF {
+    border: 2px solid rgb(208, 255, 0);
+    box-shadow: 2px 2px rgb(208, 255, 0);
+}
+
+h1,h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: rgb(255,0,0);
+    font-family: 'Raleway' ;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 80px;
+    text-shadow: 4px 4px black;
+}
+
+h2  {
+    font-variant: small-caps;
+    font-size: 40px;
+}
+
+
+p, ul  {
+    font-family: 'Open Sans', sans-serif; 
+    letter-spacing: 0.5px;
+}
+
+
+span {
+    font-family:'Comic Sans',sans-serif;
+    font-variant: small-caps;
+
+}
+
+
+/* Link Styles */
+a  {
+    color: #0000cc;
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: underline;
+
+}
+
